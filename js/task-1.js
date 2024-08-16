@@ -6,25 +6,25 @@ const customer = {
   
 getDiscount() {
     return this.discount;
-  }
+  },
 
 setDiscount(value) {
     this.discount = value;
-  }
+  },
 
 getBalance() {
     return this.balance;
-}
+},
 
 getOrders() {
     return this.orders;
-}
+},
   
 addOrder(cost, order) {
     if (!this.orders.includes(order)) {
         this.orders.push(order);
     }
-}
+},
 };
 
 customer.setDiscount(0.15);
